@@ -1,3 +1,3 @@
-# React typescript from scratch
+# LazyLoad by Reactism
 
-Lets try to explore react with typescript from scratch
+We using intersection observer to build this component.

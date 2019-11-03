@@ -1,0 +1,10 @@
+webpack.dev.js
+webpack.prod.js
+.babelrc
+.gitignore
+
+# dev directories
+src/
+
+# editor settings
+.editorconfig
