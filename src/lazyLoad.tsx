@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-interface ILazyLoad {
+export interface ILazyLoad {
   margin?: string;
   threshold?: 0 | 0.25 | 0.5 | 0.75 | 1;
   loading?: string | React.ReactNode;

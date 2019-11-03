@@ -1,7 +1,10 @@
-webpack.dev.js
-webpack.prod.js
 .babelrc
 .gitignore
+package-lock.json
+tsconfig.json
+webpack.dev.ts
+webpack.prod.ts
+yarn.lock
 
 # dev directories
 src/

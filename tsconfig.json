@@ -4,8 +4,14 @@
     "noImplicitAny": true,
     "target": "es5",
     "lib": ["es5", "es6", "dom"],
+    "strictNullChecks": true,
+    "removeComments": true,
+    "declaration": true,
+    "sourceMap": true,
     "jsx": "react",
-    "allowJs": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "typeRoots": ["index.d.ts", "node_modules/@types"]
+  },
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
